@@ -1,0 +1,91 @@
+/* Meu primeiro arquivo CSS */
+
+/* TAGS */ 
+p{
+	color: white;
+	font-size: 15px;
+	font-family: asdf, arial, "Times nem roman";
+	text-shadow: 1px 1px 1px #111111;
+}
+
+body{
+	background-color:#0000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+
+header{
+	background-color:#7FFFD4;
+
+	height: 100px;
+	padding: 20px;
+}
+
+img{
+	height: 90px;
+	padding: 10px;
+	
+}
+
+footer{
+	clear: both;
+	background-color:#7FFFD4;
+	height:20px;
+	text-align: center;
+	padding: 10px;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+h1{
+	color:#00BFFF;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+	margin:0 0 50px 0;
+}
+
+/* IDS */
+#principal{
+	background-image: url('campo.jpg');
+	clear: both;
+	background-size: 90%;
+	min-height: 500px;
+	padding: 100px 0 0 0;
+}
+
+#logo{
+	float: left;
+
+}
+
+#menu{
+	margin-top: 10px;
+	float: right;
+}
+
+#menu a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #111;
+	text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+	background-color: #111;
+	color:#D3D3D3;
+}
+
+/* class */ 
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color: rgb(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
